@@ -3,8 +3,7 @@
 
 @media only screen and (max-width:37.5rem) {
     #headerBanner{
-        
-        height: 12.7rem;
+        height: 20.2rem;
     }
     .logoHeader img{
         width: 25rem;
@@ -26,7 +25,9 @@
         position: relative;
         /* padding-left: 4rem; */
     }
-
+    .lineas{
+        object-fit: cover;
+    }
     .flecha img{
         width: 3rem;
     }
