@@ -1,7 +1,6 @@
 #headerBanner{
     background-color: white;
-    object-fit: cover;
-    height: 60rem;
+    height: 30rem;
 }
 
 header{
@@ -11,6 +10,7 @@ header{
 .lineas{
     width: 100%;
     height: 100%; 
+    object-fit:cover;
 }
 
 .logoHeader{
@@ -49,10 +49,10 @@ header{
     justify-content: center;
     align-items: center;
     list-style: none;   
+    /* background-color: black; */
 }
 
-
-.hijoOption:hover{
+.hijoOption:hover {
     color: rgb(26, 107, 26);
     transition: 0.3s;
 }

@@ -14,7 +14,7 @@ export function menu (){
     '<nav class="navbar">'+
 
     '<ul class="nav">'+
-        '<li><a class="hijoOption">Inicio</a></li>'+
+        '<li><a id="inicio" class="hijoOption">Inicio</a></li>'+
         '<li><a class="hijoOption">Menú</a></li>'+
         '<li><a class="hijoOption">Dietas</a></li>'+
         '<li><a class="hijoOption">Planes</a></li>'+
