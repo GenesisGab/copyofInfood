@@ -33,7 +33,7 @@ html{
 }
 
 #root {
-    max-width: 37.5rem;
+    max-width: 37.5vh;
     height: auto;
     margin: auto;
 
@@ -41,20 +41,15 @@ html{
 }
 
 #footer {
-    max-width: 37.5rem;
+    max-width: 37.5vh;
     height: auto;
     margin: auto;
 
-    background-color: var(--grisClaro);
+    background-color: rgba(149, 153, 136, 0.41);
 }
-
 
 
 p{
     font-size: var(--h3);
     color: var(--verdeClaro);
-}
-
-footer h1{
-    background-color: #0B1D11;
 }

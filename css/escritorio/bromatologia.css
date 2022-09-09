@@ -17,9 +17,6 @@
 
 
 #galeria {
-    /* max-width: 100%;
-    padding-bottom: 2rem; */
-
     padding: 0rem 7rem;
     
     margin-top: 7.8rem;
@@ -29,7 +26,6 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-
 }
 
 
