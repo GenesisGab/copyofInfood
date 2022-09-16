@@ -1,4 +1,3 @@
-
 /******* CONFIGURACION DEL MENU PARA EL TELEFONO ********/
 
 @media only screen and (max-width:37.5rem) {
@@ -18,26 +17,7 @@
         max-height: 1.8rem;
         padding-left: 2rem;
     }
-
-    .flecha{
-        /* margin-right: 6rem; */
-        /* margin-right: 50rem; */
-        position: relative;
-        /* padding-left: 4rem; */
-    }
-    .lineas{
-        object-fit: cover;
-    }
-    .flecha img{
-        width: 3rem;
-    }
-
-    .flecha a{
-        margin-right: 2rem;
-        margin-bottom: 0.1rem;
-    }
 }
-
 
 /******* CONFIGURACION DE LA PIRAMIDE PARA EL TELEFONO ********/
 
@@ -69,6 +49,49 @@
     }
  
 }
+
+
+/**************** CONFIGURACION DE LA ESTADISTICA PARA EL TELEFONO ************************/
+
+@media only screen and (max-width:37.5rem) {
+
+    .Grafica{
+        max-width: 29.4rem;
+        max-height: 55.6rem;
+        padding-top: 5.7rem;
+        padding-bottom: 57rem;
+        margin-top: 2.6rem;
+        margin-bottom: 7.2rem;
+    }
+    .Grafica h3{
+        /* font-size: 2em; */
+        font-size: 0;
+        margin-bottom: 3rem;
+    }
+    .hijoGrafica h2{
+        font-size: 2rem;
+    }
+
+    .hijoGrafica img{
+        max-width: 25.454rem;
+        /* background-image : url('../img/graficaCel.png'); */
+    }
+  
+    .textoGrafica{
+        max-width: 24.5rem;
+        max-height: 16.8rem;
+        margin-left: 0rem;
+    }
+    
+    .parrafoGrafica{
+        margin-top: 3rem;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+ 
+}
+
+
 
 /******************** CONFIGURACION DE LA BROMATOLOGIA PARA EL TELEFONO ************************/
 
@@ -119,42 +142,79 @@
         margin-top: 1rem;
     }
 }
-/**************** CONFIGURACION DE LA ESTADISTICA PARA EL TELEFONO ************************/
+
+/**************************SECCION PROTEINAS***************************/
+
+/**CSS ESQUEMA**/
 
 @media only screen and (max-width:37.5rem) {
 
-    .Grafica{
-        max-width: 29.4rem;
-        max-height: 55.6rem;
-        padding-top: 5.7rem;
-        padding-bottom: 57rem;
-        margin-top: 2.6rem;
-        margin-bottom: 7.2rem;
+    .tituloProteina{
+        margin-top: 7.3rem;
+        margin-bottom: 6.9rem;
+        font-size: 2.4rem;
     }
-    .Grafica h3{
-        /* font-size: 2em; */
-        font-size: 0;
-        margin-bottom: 3rem;
+    .padreEsquema{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+        color: var(--colorTexto);
     }
-    .hijoGrafica h2{
+    .padreEsquema h2{
+        font-size: 0px;
+    }
+    .esquema{
+        width: 100%;
+        height: 17.8rem;
+        background-color: aliceblue;
+    }
+   
+}
+
+/***CSS VIDEO***/
+@media only screen and (max-width:37.5rem) {
+
+    .padreProteinas{
+        width: 29rem;
+        height: 27.2rem;
+        margin-top: 5.5rem;
+    }
+    .subVdProteina{
+        width: 21.9rem;
+        height: auto;
+        margin-bottom: 2.5rem;
+    }
+    .vdProteinas{
+        width: 21.3rem;
+        height: 11.6rem;
+    }
+    .subVdProteina h3{
         font-size: 2rem;
     }
+   
+}
+/**CSS INFORMACION*/
+@media only screen and (max-width:37.5rem) {
 
-    .hijoGrafica img{
-        max-width: 25.454rem;
-        /* background-image : url('../img/graficaCel.png'); */
+    .padreTexProt{
+        width: 31.4rem;
+        height: 65rem;
+        margin-bottom: 7rem;
+
     }
-  
-    .textoGrafica{
-        max-width: 24.5rem;
-        max-height: 16.8rem;
-        margin-left: 0rem;
+    .padreTexProt p{
+        width: 28.4rem;
+        height: auto;
+        margin: auto;
+        margin-bottom: 3rem;
+        font-size: 1.1rem;
     }
-    
-    .parrafoGrafica{
+    .imgProteText{
+        width: 31.2rem;
         margin-top: 3rem;
-        font-size: 1.2rem;
-        text-align: center;
+        height: 18.8rem;
+        background-color: aliceblue;
     }
- 
 }

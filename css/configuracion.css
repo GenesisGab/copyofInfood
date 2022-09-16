@@ -33,23 +33,40 @@ html{
 }
 
 #root {
-    max-width: 37.5vh;
+    max-width: 37.5vw;
     height: auto;
     margin: auto;
 
     background-color: var(--grisClaro);
 }
 
-#footer {
-    max-width: 37.5vh;
+#root2{
+    max-width: 37.5vw;
     height: auto;
     margin: auto;
 
+    background-color: var(--grisClaro); 
+}
+#footer {
+    max-width: 37.5vw;
+    height: auto;
+    margin: auto;
     background-color: rgba(149, 153, 136, 0.41);
 }
 
+#footer2{
+    max-width: 37.5vw;
+    height: auto;
+    margin: auto;
+    background-color: rgba(149, 153, 136, 0.41);
+}
 
 p{
     font-size: var(--h3);
     color: var(--verdeClaro);
 }
+
+
+
+
+

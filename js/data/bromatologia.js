@@ -1,4 +1,4 @@
- export let bromatologia = [
+export let bromatologia = [
     {
         img : 'https://www.prensalibre.com/wp-content/uploads/2019/08/Prote%C3%ADnas-2.jpg?quality=52',
         titulo: 'Proteínas',

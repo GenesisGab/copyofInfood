@@ -11,27 +11,24 @@ export function menu (){
             '<div class="logoHeader">'+
                 '<img src="./img/logo.png">'+
             '</div>'+
-    '<nav class="navbar">'+
 
-    '<ul class="nav">'+
-        '<li><a id="inicio" class="hijoOption">Inicio</a></li>'+
-        '<li><a class="hijoOption">Menú</a></li>'+
-        '<li><a class="hijoOption">Dietas</a></li>'+
-        '<li><a class="hijoOption">Planes</a></li>'+
-    '</ul>'+
-
-    '</nav>'+
-           
-
+        '<nav class="navbar">'+
+            '<ul class="nav">'+
+                '<li><a href="" class="hijoOption" id="inicio">Inicio</a></li>'+
+                '<li><a class="hijoOption">Menú</a></li>'+
+                '<li><a class="hijoOption">Dietas</a></li>'+
+                '<li><a class="hijoOption">Planes</a></li>'+
+            '</ul>'+
+        '</nav>'+
+        
             // '<div class="flecha" id="flechas">'+
             //     '<a><img class="imgFlecha"></a>'+
             //     '<a><img class="imgFlecha"></a>'+
             //     '<a><img class="imgFlecha"></a>'+
             //     '<a><img id="flechaH" class="imgFlecha" src="./img/flecha.png"></a>'+
             // '</div>'+
-            
           '</header>'+
-          '<section id="menu"></section>';
+    '<section id="menu"></section>';
        
 }
 menu();

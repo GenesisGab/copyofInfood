@@ -56,33 +56,18 @@ header{
     color: rgb(26, 107, 26);
     transition: 0.3s;
 }
-
-.flecha{
-    text-align: center;
-    
-    display: flex;
-    flex-direction: row;    
-    justify-content: center;
-    align-items: center;
-}
-
-.flecha a{
-    cursor: pointer;
-    width: 13.8rem;
-    height: 3.6rem;
-    margin-right: 3.3rem;
-    margin-bottom: 2rem;
-}
-
 /************************/
 
 .navbar ul li {
    
     display: inline-block;
     position: relative;
-
+    text-decoration: none;
 }
-
+a{
+    text-decoration: none;
+    color: black;
+}
 .navbar ul li::before {
     content: "";
     height: 3px;

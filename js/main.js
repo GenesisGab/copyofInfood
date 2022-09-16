@@ -1,11 +1,14 @@
 /* CONEXIONES */
 
+
+import { footer } from "./componentes/footer.js";
 import { menu } from "./componentes/menu.js";
 import { cuadrosBromat } from "./componentes/bromatologia.js";
 import { piramide } from "./componentes/piramide.js";
 import { estadistica } from "./componentes/estadistica.js";
+// import { proteinas } from "./componentes/proteinas.js";
 
-import { footer } from "./componentes/footer.js";
+import { ActivarDesactivar } from "./componentes/proteinas.js";
 
 /* DESPLIEGUE DE DATOS BROMATOLOGÍA */
 import { item } from "./componentes/bromatologia.js";
@@ -30,27 +33,3 @@ function cargarGaleria(){
 }
 
 cargarGaleria();
-
-
-
-var activarse = document.getElementById("flechaH");
-
-//FUNCIÓN PARA ABRIR Y CERRAR LA VENTANA
-function ActivarDesactivar() {    
-    
-    var explorer = document.getElementById("menu");
-    
-    console.log("valor x",explorer);
-
-    //Activa y desactiva la ventana
-    if (explorer.style.display === "none") {
-        explorer.style.display = "block";
-        
-    } else {
-        explorer.style.display = "none";
-    }
-
-}
-
-/* EVENTO */
-activarse.addEventListener('click', ActivarDesactivar);

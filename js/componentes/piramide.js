@@ -15,4 +15,3 @@ let root = document.querySelector("#piramide");
     '<section class="d" id="estadistica"></section>';
 }
 piramide();
-
